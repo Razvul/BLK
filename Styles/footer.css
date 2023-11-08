@@ -1,0 +1,82 @@
+footer {
+  background-color: #1A2932;
+  padding: 62px 62px 38px 62px;
+}
+footer .more {
+  display: flex;
+  justify-content: space-around;
+}
+footer .more .blk .logo-mic {
+  width: 105px;
+  height: 29px;
+  margin-bottom: 33px;
+}
+footer .more .blk .pereche {
+  display: flex;
+}
+footer .more .blk .pereche .fa-solid {
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+  margin-bottom: 26px;
+}
+footer .more .blk .pereche .fa-phone-volume {
+  transform: rotateZ(-45deg);
+}
+footer .more .blk .pereche p {
+  color: #FFFFFF;
+  width: 192px;
+}
+footer .more .info h3, footer .more .info p {
+  color: #FFFFFF;
+}
+footer .more .info h3 {
+  margin-top: 7px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+footer .more .info p {
+  padding: 5px 0;
+}
+footer .more .info form {
+  display: flex;
+}
+footer .more .info input[type=email] {
+  border: none;
+  border-bottom: 2px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  background-color: #1A2932;
+  color: #828A8F;
+  margin: 0;
+  padding: 0;
+}
+footer .more .info button {
+  border: none;
+  border-bottom: 2px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  background-color: #1A2932;
+  color: #828A8F;
+  margin: 0;
+  padding: 0;
+}
+footer .more .info .social-media {
+  display: flex;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-right: 10px;
+  gap: 10px;
+}
+footer .more .info .fa-brands {
+  cursor: pointer;
+}
+footer .payments {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=footer.css.map */

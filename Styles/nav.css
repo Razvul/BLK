@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  height: 70px;
+  padding: 28px 30px 26px 30px;
+  background-color: #000000;
+}
+nav .hamburgar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav .hamburgar .linie {
+  background-color: #FFFFFF;
+  width: 50px;
+  height: 5px;
+}
+nav .nav-child {
+  display: flex;
+  justify-content: space-around;
+}
+nav .nav-child p {
+  letter-spacing: 0px;
+  margin: 5px 10px;
+  height: 16px;
+}
+nav .nav-child p.text {
+  padding-right: 10px;
+}
+nav .nav-child p:hover {
+  background-color: #CEBDAF;
+}
+
+.blk-small {
+  width: 244px;
+  height: 27px;
+}
+
+.shopping-bag {
+  width: 20px;
+  height: 24px;
+  border: 1px solid #FFFFFF;
+  margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    justify-content: start;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 36px;
+    height: 26px;
+  }
+  .hamburger .linie {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 5px;
+  }
+  .nav-child {
+    display: none;
+  }
+}/*# sourceMappingURL=nav.css.map */

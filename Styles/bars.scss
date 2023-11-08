@@ -1,0 +1,23 @@
+@import 'colors';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bar1, .bar2{
+    color: $white;
+    background-color: $black;
+    display: flex;
+    justify-content: space-around;
+
+    h2{
+        width: 86px;
+        height: 80px;
+    }
+
+    .pereche{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+}

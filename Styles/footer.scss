@@ -1,0 +1,87 @@
+@import 'colors';
+footer{
+    background-color: $black3;
+    padding: 62px 62px 38px 62px;
+    .more{
+        display: flex;
+        justify-content: space-around;
+        .blk{
+            .logo-mic{
+                width: 105px;
+                height: 29px;
+                margin-bottom: 33px;
+            }
+            .pereche{
+                display: flex;
+                .fa-solid{
+                    color: $white;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 18px;
+                    margin-bottom: 26px;
+                }
+                .fa-phone-volume{
+                    transform: rotateZ(-45deg);
+                }
+                p{
+                    color: $white;
+                    width: 192px;
+                }
+            }
+        }
+        .info{
+            h3, p{
+                color: $white;
+            }
+            h3{
+                margin-top: 7px;
+                margin-bottom: 30px;
+                font-size: 20px;
+            }
+            p{
+                padding: 5px 0;
+            }
+            form{
+                display: flex;
+            }
+            input[type=email]{
+                border: none;
+                border-bottom: 2px;
+                border-bottom-color: $white;
+                border-bottom-style: solid;
+                background-color: $black3;
+                color: #828A8F;
+                margin: 0;
+                padding: 0;
+            }
+            button{
+                border: none;
+                border-bottom: 2px;
+                border-bottom-color: $white;
+                border-bottom-style: solid;
+                font-size: 15px;
+                padding: 0;
+                margin: 0;
+                font-weight: bold;
+                background-color: $black3;
+                color: #828A8F;
+                margin: 0;
+                padding: 0;
+            }
+            .social-media{
+                display: flex;
+                color: $white;
+                padding-top: 20px;
+                padding-right: 10px;
+                gap: 10px;
+            }
+            .fa-brands{
+                cursor: pointer;
+            }
+        }
+    }
+    .payments{
+        display: flex;
+        justify-content: center;
+    }
+}

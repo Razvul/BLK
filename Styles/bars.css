@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bar1, .bar2 {
+  color: #FFFFFF;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+}
+.bar1 h2, .bar2 h2 {
+  width: 86px;
+  height: 80px;
+}
+.bar1 .pereche, .bar2 .pereche {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}/*# sourceMappingURL=bars.css.map */

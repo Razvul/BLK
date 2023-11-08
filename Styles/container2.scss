@@ -1,0 +1,77 @@
+@import 'colors';
+.container2{
+    /*width: 1112px;*/
+    margin: 0;
+    display: flex;
+    padding: 80px 70px 80px 80px;
+    justify-content: space-around;
+
+    .descriere{
+        
+        h2{
+            font-size: 45px;
+            margin-top: 53px;
+        }
+    
+        .text{
+            max-width: 736px;
+            height: 405px;
+            font-size: 18px;
+            margin-top: 33px;
+            line-height: 42px;
+            padding-right: 50px;
+        }
+    }
+    .nutrition-facts{
+        width: 322px;
+        height: 541px;
+    }
+}
+
+.container3{
+    background-color: $lightGray;
+    padding: 80px 70px 80px 80px;
+
+    .container{
+        display: flex;
+
+        .silueta{
+            width: 465px;
+            height: 497px;
+            border-radius: 100px 0px;
+        }
+
+        .descriere{
+            margin-left: 56px;
+            h2{
+                font-size: 45px;
+                margin-top: 100px;
+                margin-bottom: 33px;
+            }
+            .text{
+                font-size: 18px;
+                line-height: 42px;
+            }
+        }
+    }
+}
+.container4{
+    display: flex;
+    padding: 80px 80px 127px 115px;
+
+    .descriere{
+        padding-right: 60px;
+        h2{
+            font-size: 45px;
+            margin-top: 65px;
+        }
+        .text{
+            font-size: 18px;
+            line-height: 42px;
+        }
+    }
+
+    .imagine{
+        border-radius: 0 100px;
+    }
+}

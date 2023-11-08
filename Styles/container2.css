@@ -1,0 +1,67 @@
+.container2 {
+  /*width: 1112px;*/
+  margin: 0;
+  display: flex;
+  padding: 80px 70px 80px 80px;
+  justify-content: space-around;
+}
+.container2 .descriere h2 {
+  font-size: 45px;
+  margin-top: 53px;
+}
+.container2 .descriere .text {
+  max-width: 736px;
+  height: 405px;
+  font-size: 18px;
+  margin-top: 33px;
+  line-height: 42px;
+  padding-right: 50px;
+}
+.container2 .nutrition-facts {
+  width: 322px;
+  height: 541px;
+}
+
+.container3 {
+  background-color: #CEBDAF;
+  padding: 80px 70px 80px 80px;
+}
+.container3 .container {
+  display: flex;
+}
+.container3 .container .silueta {
+  width: 465px;
+  height: 497px;
+  border-radius: 100px 0px;
+}
+.container3 .container .descriere {
+  margin-left: 56px;
+}
+.container3 .container .descriere h2 {
+  font-size: 45px;
+  margin-top: 100px;
+  margin-bottom: 33px;
+}
+.container3 .container .descriere .text {
+  font-size: 18px;
+  line-height: 42px;
+}
+
+.container4 {
+  display: flex;
+  padding: 80px 80px 127px 115px;
+}
+.container4 .descriere {
+  padding-right: 60px;
+}
+.container4 .descriere h2 {
+  font-size: 45px;
+  margin-top: 65px;
+}
+.container4 .descriere .text {
+  font-size: 18px;
+  line-height: 42px;
+}
+.container4 .imagine {
+  border-radius: 0 100px;
+}/*# sourceMappingURL=container2.css.map */
