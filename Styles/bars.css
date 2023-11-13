@@ -4,18 +4,27 @@
   padding: 0;
 }
 
-.bar1, .bar2 {
+.bar1,
+.bar2 {
   color: #FFFFFF;
   background-color: #000000;
   display: flex;
   justify-content: space-around;
 }
-.bar1 h2, .bar2 h2 {
+.bar1 h2,
+.bar2 h2 {
   width: 86px;
   height: 80px;
 }
-.bar1 .pereche, .bar2 .pereche {
+.bar1 .pereche,
+.bar2 .pereche {
   display: flex;
   align-items: center;
   gap: 7px;
+}
+
+@media (max-width: 768px) {
+  .bar2 {
+    display: none;
+  }
 }/*# sourceMappingURL=bars.css.map */

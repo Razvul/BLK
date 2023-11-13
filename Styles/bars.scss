@@ -1,23 +1,32 @@
 @import 'colors';
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.bar1, .bar2{
+
+.bar1,
+.bar2 {
     color: $white;
     background-color: $black;
     display: flex;
     justify-content: space-around;
 
-    h2{
+    h2 {
         width: 86px;
         height: 80px;
     }
 
-    .pereche{
+    .pereche {
         display: flex;
         align-items: center;
         gap: 7px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bar2 {
+        display: none;
     }
 }

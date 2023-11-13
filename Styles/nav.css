@@ -15,14 +15,7 @@ nav {
   background-color: #000000;
 }
 nav .hamburgar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-nav .hamburgar .linie {
-  background-color: #FFFFFF;
-  width: 50px;
-  height: 5px;
+  display: none;
 }
 nav .nav-child {
   display: flex;
@@ -56,19 +49,19 @@ nav .nav-child p:hover {
   .nav {
     justify-content: start;
   }
-  .hamburger {
+  .nav .hamburger {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 36px;
     height: 26px;
   }
-  .hamburger .linie {
+  .nav .hamburger .linie {
     background-color: #FFFFFF;
     width: 50px;
     height: 5px;
   }
-  .nav-child {
+  .nav .nav-child {
     display: none;
   }
 }/*# sourceMappingURL=nav.css.map */

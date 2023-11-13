@@ -64,4 +64,10 @@
 }
 .container4 .imagine {
   border-radius: 0 100px;
+}
+
+@media (max-width: 768px) {
+  .container3, .container4 {
+    display: none;
+  }
 }/*# sourceMappingURL=container2.css.map */

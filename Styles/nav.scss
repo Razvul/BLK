@@ -1,10 +1,12 @@
 @import 'colors';
-*{
+
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-nav{
+
+nav {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -14,68 +16,62 @@ nav{
     padding: 28px 30px 26px 30px;
     background-color: $black;
 
-    .hamburgar{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        .linie{
-            background-color: $white;
-            width: 50px;
-            height: 5px;
-        }
+    .hamburgar {
+        display: none;
     }
-    .nav-child{
+
+    .nav-child {
         display: flex;
         justify-content: space-around;
-    
-        p{
+
+        p {
             letter-spacing: 0px;
             margin: 5px 10px;
             height: 16px;
-    
-            &.text{
+
+            &.text {
                 padding-right: 10px;
             }
-    
-            &:hover{
+
+            &:hover {
                 background-color: $lightGray;
             }
         }
     }
 }
-.blk-small{
+
+.blk-small {
     width: 244px;
     height: 27px;
 }
-.shopping-bag{
+
+.shopping-bag {
     width: 20px;
     height: 24px;
     border: 1px solid $white;
     margin-left: 40px;
 }
+
 @media (max-width: 768px) {
-    .nav{
+    .nav {
         justify-content: start;
-        
-        .hamburger{
+
+        .hamburger {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             width: 36px;
             height: 26px;
-    
-            .linie{
+
+            .linie {
                 background-color: $white;
                 width: 50px;
                 height: 5px;
             }
         }
-        .nav-child{
+
+        .nav-child {
             display: none;
         }
-        
-        
     }
-    
 }
